@@ -79,7 +79,6 @@ src/
 │   ├── user/            # Gestion utilisateur
 │   │   └── Profile.tsx
 │   └── Error.tsx
-├── layouts/             # Layouts de l'application
 ├── lib/                 # Utilitaires et helpers
 │   └── utils.ts
 ├── routes/              # Configuration des routes
