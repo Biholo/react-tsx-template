@@ -5,9 +5,9 @@ import Login from '@/features/auth/Login';
 import Register from '@/features/auth/Register';
 import Profile from '@/features/user/Profile';
 import Error from '@/features/Error';
-import Sidebar from '@/components/Sidebar';
+import Sidebar from '@/components/layout/Sidebar';
 import { useAuthStore } from '@/stores/authStore';
-import Loader from '@/components/Loader';
+import Loader from '@/components/ui/Loader';
 import { useAutoLogin } from '@/api/queries/authQueries';
 import { useEffect } from 'react';
 const AppRoutes = () => {
