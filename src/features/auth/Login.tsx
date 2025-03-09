@@ -1,15 +1,12 @@
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
-import { loginSchema, type LoginFormData } from "@/validators/loginValidator"
+import { loginSchema, type LoginFormData } from "@/validators/authValidators"
 import { Link } from "react-router-dom"
 import { motion } from "framer-motion"
 import { useLogin } from "@/api/queries/authQueries"
 import { Input } from "@/components/ui/Input"
 import { Button } from "@/components/ui/Button"
 import { Card } from "@/components/ui/Card"
-import { Badge } from "@/components/ui/Badge"
-
-
 
 
 export default function Login() {

@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
-import { registerSchema, type RegisterFormData } from "@/validators/registerValidator"
+import { registerSchema, type RegisterFormData } from "@/validators/authValidators"
 import { Link } from "react-router-dom"
 import { motion } from "framer-motion"
 import { useRegister } from "@/api/queries/authQueries"
